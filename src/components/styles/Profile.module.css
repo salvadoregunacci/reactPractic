@@ -1,0 +1,41 @@
+#content {
+  grid-area: c;
+}
+
+.banner {
+  height: 250px;
+  background: url("../../img/banner.jpg") center center / cover no-repeat;
+}
+
+.profile__row {
+  display: flex;
+  padding: 20px;
+}
+
+.profile__info {
+  margin-left: 20px;
+}
+
+.name {
+  display: flex;
+  column-gap: 5px;
+  padding: 0;
+  font-size: 24px;
+}
+
+.photo img {
+  max-height: 300px;
+}
+
+.profile__bio {
+  margin-top: 20px;
+}
+
+.profile__bio_item label {
+  display: inline-block;
+  width: 100px;
+}
+
+.profile__bio_item span {
+  font-weight: 500;
+}
